@@ -17,7 +17,8 @@ const App = () => {
     <div className="flex justify-center items-center h-screen">
       <div className="">
         <div className="bg-white shadow-md rounded-lg p-8 max-w-md w-full text-black">
-          <span>chainID:{chainId}</span>
+          <blockquote className="border-l-4 border-gray-400 italic text-gray-600 bg-gray-100 p-4 text-xs rounded-md shadow-lg my-2">chainID:{chainId}</blockquote>
+          <blockquote className="border-l-4 border-gray-400  italic text-gray-600 bg-gray-100 p-4 text-xs rounded-md shadow-lg my-2">Connected address: {address}</blockquote>
           {
             address ?
             "" :
